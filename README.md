@@ -1,3 +1,7 @@
+# Now Change Point　on the job(Hurin)
+- Remove antonyms from similarity.
+- Extending the is-a relationship during similarity weighing
+
 # Natural Language Toolkit (NLTK)
 [![PyPI](https://img.shields.io/pypi/v/nltk.svg)](https://pypi.python.org/pypi/nltk) 
 [![Travis](https://travis-ci.org/nltk/nltk.svg?branch=develop)](https://travis-ci.org/nltk/nltk)
