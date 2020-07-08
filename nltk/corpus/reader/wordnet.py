@@ -791,6 +791,7 @@ class Synset(_WordNetObject):
         return tree
 
     # interface to similarity methods
+    # Remove antonyms from similarity calculations(Rin)
     def path_similarity(self, other, verbose=False, simulate_root=True):
         """
         Path Distance Similarity:
@@ -872,7 +873,8 @@ class Synset(_WordNetObject):
         if distance is None or distance < 0 or depth == 0:
             return None
         return -math.log((distance + 1) / (2.0 * depth))
-
+   
+    # Remove antonyms from similarity calculations(Rin)
     def wup_similarity(self, other, verbose=False, simulate_root=True):
         """
         Wu-Palmer Similarity:
