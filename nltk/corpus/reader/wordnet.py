@@ -825,7 +825,8 @@ class Synset(_WordNetObject):
         if distance is None or distance < 0:
             return None
         return 1.0 / (distance + 1)
-
+    # Remove antonyms from similarity calculations(Rin)
+    # Using sibling relationships to extend the is-a relationship
     def lch_similarity(self, other, verbose=False, simulate_root=True):
         """
         Leacock Chodorow Similarity:
