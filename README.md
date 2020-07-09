@@ -1,4 +1,4 @@
-# attention (e.g. to detail): Now Change Point on the job(Hurin)
+# Attention (e.g. to detail): Now Change Point on the job(Hurin)
 - Remove antonyms from similarity.
 - Extending the is-a relationship during similarity weighing
 
