@@ -2,6 +2,9 @@
 - Remove antonyms from similarity.
 - Extending the is-a relationship during similarity weighing
 
+# The paper proposing the above is by "Linguistic Duality" by Nakahodo Rintaro , Virach Sornlertlamvanich, registered in IEEE Explore.
+- >　Rintaro Nakahodo and Virach Sornlertlamvanich. Linguistic Duality, Proceedings of The 5th International Conference on Information Technology (InCIT 2020), Chonburi, Thailand, October 21-22, 2020, pp. 156-161.
+
 ---
 # Natural Language Toolkit (NLTK)
 [![PyPI](https://img.shields.io/pypi/v/nltk.svg)](https://pypi.python.org/pypi/nltk) 
